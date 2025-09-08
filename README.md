@@ -7,5 +7,5 @@ Projeto simples em Python para praticar **Programação Orientada a Objetos (POO
 ## Como executar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEUNOME/conta-bancaria-poo-SEUNOME.git
+   git clone https://github.com/SEUNOME/conta-bancaria-poo-GUSTAVO.git
    cd conta-bancaria-poo-SEUNOME
