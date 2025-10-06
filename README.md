@@ -17,7 +17,7 @@ Demonstrar a criação de uma classe básica com atributos (`titular`, `saldo`) 
 python conta.py
 
 --- Teste de Exibição de Saldo ---
-Titular: SEUNOME
+Titular: GUSTAVO
 Saldo: R$ 0.00
 ---------------------------------
 
@@ -31,5 +31,5 @@ Siga estes passos no seu terminal para criar o repositório, adicionar os arquiv
 
 ```bash
 # Substitua SEUNOME
-mkdir conta-bancaria-poo-SEUNOME
-cd conta-bancaria-poo-SEUNOME
+mkdir conta-bancaria-poo-GUSTAVO
+cd conta-bancaria-poo-GUSTAVO
