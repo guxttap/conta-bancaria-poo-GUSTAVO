@@ -1,18 +1,30 @@
+# conta.py
+
 class ContaBancaria:
+    """
+    Representa uma conta bancária simples.
+    """
     def __init__(self, titular):
+        """
+        Inicializa a conta com um titular e saldo inicial de 0.
+        """
         self.titular = titular
-        self.saldo = 0.0  # saldo inicia em zero
+        self.saldo = 0.0 # O saldo inicia em 0
 
     def exibir_saldo(self):
-        print(f"Titular: {self.titular} | Saldo: R${self.saldo:.2f}")
+        """
+        Exibe o nome do titular e o saldo atual da conta.
+        """
+        print(f"Titular: {self.titular}")
+        print(f"Saldo: R$ {self.saldo:.2f}")
 
+# --- Teste Simples ---
+if __name__ == '__main__':
+    # 1. Cria uma nova conta bancária (substitua SEUNOME)
+    minha_conta = ContaBancaria("SEUNOME")
 
-# Teste simples
-if __name__ == "__main__":
-    conta1 = ContaBancaria("Maria Silva")
-    conta1.exibir_saldo()
-
-    conta2 = ContaBancaria("João Souza")
-    conta2.saldo = 150.75  # simulando alteração no saldo
-    conta2.exibir_saldo()
+    # 2. Exibe o saldo inicial
+    print("--- Teste de Exibição de Saldo ---")
+    minha_conta.exibir_saldo()
+    print("---------------------------------")
 
