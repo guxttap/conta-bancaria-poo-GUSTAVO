@@ -15,3 +15,21 @@ Demonstrar a criação de uma classe básica com atributos (`titular`, `saldo`) 
 
 ```bash
 python conta.py
+
+--- Teste de Exibição de Saldo ---
+Titular: SEUNOME
+Saldo: R$ 0.00
+---------------------------------
+
+---
+
+## 3. Comandos Git/GitHub para o Terminal
+
+Siga estes passos no seu terminal para criar o repositório, adicionar os arquivos e enviá-los (push) para o GitHub. **Substitua `SEUNOME` e `URL-DO-SEU-REPOSITORIO` pelos valores corretos.**
+
+**Passo 1: Criar a pasta do projeto e navegar para dentro dela**
+
+```bash
+# Substitua SEUNOME
+mkdir conta-bancaria-poo-SEUNOME
+cd conta-bancaria-poo-SEUNOME
