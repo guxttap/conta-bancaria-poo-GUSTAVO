@@ -20,8 +20,8 @@ class ContaBancaria:
 
 # --- Teste Simples ---
 if __name__ == '__main__':
-    # 1. Cria uma nova conta bancária (substitua SEUNOME)
-    minha_conta = ContaBancaria("SEUNOME")
+    # 1. Cria uma nova conta bancária (substitua GUSTAVO)
+    minha_conta = ContaBancaria("GUSTAVO")
 
     # 2. Exibe o saldo inicial
     print("--- Teste de Exibição de Saldo ---")
